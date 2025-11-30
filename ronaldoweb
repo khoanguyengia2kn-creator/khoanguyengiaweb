@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CRISTIANO Ronaldo Website</title>
+  <img src="ribosome.jpg" alt="Cristiano Ronaldo" style="display: block; margin: 0 auto; width: 300px;">
+    
+    <p style="text-align: center; font-size: 22px;">One of the Greatest Footballers of All Time</p>
+    
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #1e3c72;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            background-color: black;
+            padding: 20px;
+        }
+
+        #logo {
+            font-size: 30px;
+            color: gold;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button {
+            background-color: gold;
+            color: black;
+            border: none;
+            padding: 10px 25px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+
+        .active-button {
+            background-color: red;
+            color: white;
+        }
+
+        #content {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+
+        .page {
+            display: none;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: gold;
+            text-align: center;
+        }
+
+        h2 {
+            color: gold;
+            font-size: 32px;
+        }
+
+        h3 {
+            color: gold;
+            font-size: 22px;
+            margin-top: 25px;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 40px;
+        }
+
+        td {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 25px;
+            text-align: center;
+            border: 1px solid gold;
+        }
+
+        .big-number {
+            font-size: 45px;
+            color: gold;
+            font-weight: bold;
+        }
+
+        .box {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 35px;
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<div id="header">
+    <div id="logo" onclick="goToHome()">CR7</div>
+    <button id="btn1" class="active-button" onclick="showHome()">Home</button>
+    <button id="btn2" onclick="showBio()">Biography</button>
+    <button id="btn3" onclick="showTitles()">Titles</button>
+</div>
+
+<div id="content">
+    <!-- Home Page -->
+    <div id="home-page" class="page" style="display: block;">
+        <h1>CRISTIANO RONALDO</h1>
+        <p style="text-align: center; font-size: 22px;">One of the Greatest Footballers of All Time</p>
+        
+        <table>
+            <tr>
+                <td>
+                    <div class="big-number">900+</div>
+                    <div>Career Goals</div>
+                </td>
+                <td>
+                    <div class="big-number">5</div>
+                    <div>Ballon d'Or Awards</div>
+                </td>
+                <td>
+                    <div class="big-number">5</div>
+                    <div>Champions League Titles</div>
+                </td>
+                <td>
+                    <div class="big-number">200+</div>
+                    <div>International Caps</div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="bio-page" class="page">
+        <div class="box">
+            <h2>Biography</h2>
+            <p>Cristiano Ronaldo dos Santos Aveiro was born on February 5, 1985, in Funchal, Madeira, Portugal. He is widely regarded as one of the greatest football players of all time.</p>
+
+            <h3>Early Life</h3>
+            <p>Born into a humble family, Ronaldo's passion for football emerged at a young age. He began playing for amateur team Andorinha at age 8, where his father worked as a kit man. His exceptional talent quickly became evident, and he moved to Nacional and then to Sporting CP's youth academy at age 12.</p>
+
+            <h3>Professional Career</h3>
+            <p><b>Sporting CP (2002-2003):</b> Ronaldo made his professional debut with Sporting CP, catching the attention of several European clubs with his incredible speed and skill.</p>
+
+            <p><b>Manchester United (2003-2009):</b> At age 18, he joined Manchester United for £12.24 million, becoming the club's first Portuguese player. Under Sir Alex Ferguson, he developed into a world-class player, winning three Premier League titles, the FA Cup, the Champions League, and his first Ballon d'Or in 2008.</p>
+
+            <p><b>Real Madrid (2009-2018):</b> In 2009, Ronaldo transferred to Real Madrid for a then-world record fee of £80 million. He became the club's all-time leading scorer with 450 goals, won four Champions League titles, two La Liga titles, and four more Ballon d'Or awards.</p>
+
+            <p><b>Juventus (2018-2021):</b> Ronaldo joined Juventus for €100 million, winning two Serie A titles and continuing his goal-scoring prowess in Italy.</p>
+
+            <p><b>Return to Manchester United & Al Nassr:</b> After returning to Manchester United in 2021, Ronaldo later joined Saudi Arabian club Al Nassr in 2023, continuing to break records and inspire fans worldwide.</p>
+
+            <h3>International Career</h3>
+            <p>Ronaldo has been Portugal's most capped player and all-time leading scorer. He led Portugal to victory in the 2016 UEFA European Championship and the 2019 UEFA Nations League, cementing his legacy as a national hero.</p>
+
+            <h3>Legacy</h3>
+            <p>Known for his incredible athleticism, work ethic, and goal-scoring ability, Ronaldo has inspired millions of fans worldwide. His dedication to fitness and continuous improvement has allowed him to perform at the highest level well into his late thirties.</p>
+        </div>
+    </div>
+
+    <div id="titles-page" class="page">
+        <div class="box">
+            <h2>Major Titles & Achievements</h2>
+            
+            <table style="margin-top: 25px;">
+                <tr>
+                    <td style="vertical-align: top; text-align: left;">
+                        <h3 style="margin-top: 0;">Club Titles</h3>
+                        <ul>
+                            <li>🏆 5× UEFA Champions League</li>
+                            <li>🏆 7× League Titles (3 Premier League, 2 La Liga, 2 Serie A)</li>
+                            <li>🏆 5× FIFA Club World Cup</li>
+                            <li>🏆 4× UEFA Super Cup</li>
+                            <li>🏆 FA Cup</li>
+                            <li>🏆 2× Copa del Rey</li>
+                            <li>🏆 2× Coppa Italia</li>
+                        </ul>
+                    </td>
+                    <td style="vertical-align: top; text-align: left;">
+                        <h3 style="margin-top: 0;">International Titles</h3>
+                        <ul>
+                            <li>🏆 UEFA European Championship 2016</li>
+                            <li>🏆 UEFA Nations League 2019</li>
+                            <li>🏆 Portugal's All-Time Top Scorer</li>
+                            <li>🏆 Most International Goals (Men's)</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: left;">
+                        <h3 style="margin-top: 0;">Individual Awards</h3>
+                        <ul>
+                            <li>⭐ 5× Ballon d'Or (2008, 2013, 2014, 2016, 2017)</li>
+                            <li>⭐ 4× European Golden Shoe</li>
+                            <li>⭐ 5× FIFA Best Player Nominations</li>
+                            <li>⭐ UEFA Champions League All-Time Top Scorer</li>
+                            <li>⭐ Real Madrid All-Time Top Scorer</li>
+                            <li>⭐ Most Goals in Champions League Season</li>
+                        </ul>
+                    </td>
+                    <td style="vertical-align: top; text-align: left;">
+                        <h3 style="margin-top: 0;">Records</h3>
+                        <ul>
+                            <li>📊 900+ Career Goals</li>
+                            <li>📊 Most International Goals (Men's)</li>
+                            <li>📊 Most Champions League Goals</li>
+                            <li>📊 First Player to Score in 5 World Cups</li>
+                            <li>📊 Most Hat-tricks in La Liga</li>
+                            <li>📊 Most Goals in a Champions League Season</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+    function showHome() {
+        document.getElementById('home-page').style.display = 'block';
+        document.getElementById('bio-page').style.display = 'none';
+        document.getElementById('titles-page').style.display = 'none';
+        
+        document.getElementById('btn1').className = 'active-button';
+        document.getElementById('btn2').className = '';
+        document.getElementById('btn3').className = '';
+    }
+
+    function showBio() {
+        document.getElementById('home-page').style.display = 'none';
+        document.getElementById('bio-page').style.display = 'block';
+        document.getElementById('titles-page').style.display = 'none';
+        
+        document.getElementById('btn1').className = '';
+        document.getElementById('btn2').className = 'active-button';
+        document.getElementById('btn3').className = '';
+    }
+
+    function showTitles() {
+        document.getElementById('home-page').style.display = 'none';
+        document.getElementById('bio-page').style.display = 'none';
+        document.getElementById('titles-page').style.display = 'block';
+        
+        document.getElementById('btn1').className = '';
+        document.getElementById('btn2').className = '';
+        document.getElementById('btn3').className = 'active-button';
+    }
+
+    function goToHome() {
+        showHome();
+    }
+</script>
+
+</body>
+</html>
